@@ -1,0 +1,34 @@
+# Build output
+build/
+out/
+cmake-build-*/
+
+# IDE files
+.vscode/
+.idea/
+*.user
+*.suo
+*.sln.DotSettings
+
+# CMake generated
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!cmake/
+
+# Compiler output
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
